@@ -16,9 +16,9 @@
   const EVENT = {
     title: 'Lamaran Eky & Tata',
     date: '2026-10-10', // format TTTT-BB-HH
-    startTime: '',      // contoh: '10:00'
+    startTime: '20:00', // contoh: '10:00'
     endTime: '',        // contoh: '13:00'
-    timeZone: '',       // WIB, WITA, atau WIT — kosongkan untuk memakai jam perangkat tamu
+    timeZone: 'WITA',   // WIB, WITA, atau WIT — kosongkan untuk memakai jam perangkat tamu
     place: 'Rumah Tata',
     address: '',        // alamat lengkap
     mapsUrl: '',        // tautan Google Maps lokasi acara
@@ -73,10 +73,11 @@
     const { date } = schedule;
     const format = (options) => new Intl.DateTimeFormat('id-ID', options).format(date);
     const clock = (time) => time.trim().replace(':', '.');
+    const dateLong = format({ weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    const zone = EVENT.timeZone ? ` ${EVENT.timeZone.toUpperCase()}` : '';
 
     let timeLabel = '';
     if (schedule.hasTime) {
-      const zone = EVENT.timeZone ? ` ${EVENT.timeZone.toUpperCase()}` : '';
       timeLabel = schedule.end
         ? `Pukul ${clock(EVENT.startTime)} – ${clock(EVENT.endTime)}${zone}`
         : `Pukul ${clock(EVENT.startTime)}${zone} – selesai`;
@@ -84,7 +85,8 @@
 
     return {
       guest,
-      dateLong: format({ weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }),
+      dateLong,
+      dateTime: schedule.hasTime ? `${dateLong} · ${clock(EVENT.startTime)}${zone}` : dateLong,
       dateDots: [pad(date.getDate()), pad(date.getMonth() + 1), date.getFullYear()].join(' · '),
       weekday: format({ weekday: 'long' }),
       day: pad(date.getDate()),
