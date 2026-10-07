@@ -6,9 +6,9 @@
 
   /* ===================== PENGATURAN ===================== */
 
-  // Kode akses di URL (contoh: index.html?code=ulan) → nama sapaan tamu.
+  // Kode akses di URL (contoh: index.html?code=fajar) → nama sapaan tamu.
   const GUESTS = {
-    ulan: 'Mba Ulan & Mas Armin',
+    'ulan-dan-armin': 'Mba Ulan & Mas Armin',
     fajar: 'Mas Fajar',
   };
 
