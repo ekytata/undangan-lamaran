@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+<style>.p1{fill:var(--c1,#FCE5EB);stroke:#fff;stroke-width:1;stroke-opacity:.9}
+.p2{fill:var(--c2,#F7CCD7);stroke:#fff;stroke-width:.9;stroke-opacity:.75}
+.p3{fill:var(--c3,#EEABBE);stroke:#fff;stroke-width:.7;stroke-opacity:.6}
+.p4{fill:var(--c4,#CF7C95)}
+.nos{stroke:none}
+.r2{fill:none;stroke:var(--c3,#EEABBE);stroke-width:1.9;stroke-linecap:round}
+.b1{fill:var(--c2,#F7CCD7);stroke:#fff;stroke-width:.8;stroke-opacity:.8}
+.b4{fill:var(--c3,#EEABBE)}
+.b2{fill:var(--c4,#CF7C95)}
+.b3{fill:#E9C987}
+.lf{fill:var(--l1,#AFC6AB)}
+.lv{fill:none;stroke:var(--l2,#E4EDDF);stroke-width:1;stroke-linecap:round}
+.eu{fill:var(--e1,#C8D9CD);stroke:var(--e2,#AEC5B7);stroke-width:.7}
+.st{fill:none;stroke:var(--st,#A9BEA6);stroke-width:1.6;stroke-linecap:round}
+.bd{fill:var(--c3,#EEABBE)}
+.bs{fill:#A9C2A6}
+.bb1{fill:#fff;stroke:#EBCFD7;stroke-width:.8}
+.bb2{fill:none;stroke:#C5D4C1;stroke-width:.8;stroke-linecap:round}
+.sp{fill:var(--s,#E2C38C)}
+.bdy{fill:#C6DCEF}.bwg{fill:#A7C6E4}.bly{fill:#FFF9F2}.bbk{fill:#F2C29E}.bey{fill:#3F3540}.bck{fill:#F3B5C5}
+.bfl{fill:none;stroke:#8DB2D7;stroke-width:1.3;stroke-linecap:round}
+.bft{fill:none;stroke:#C7AD9C;stroke-width:2.2;stroke-linecap:round}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 3.6s ease-in-out infinite}
+.fl{animation:fl 6s ease-in-out infinite}
+.hb{animation:hb 3.2s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.3;transform:scale(.55)}50%{opacity:1;transform:scale(1)}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes hb{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.tw,.fl,.hb{animation:none}}</style>
+<defs>
+<g id="peony"><g class="p1"><circle cx="19.06" cy="0.04" r="11.7"/><circle cx="14.86" cy="12.88" r="11.57"/><circle cx="4.72" cy="18.46" r="11.7"/><circle cx="-9.33" cy="16.51" r="12.13"/><circle cx="-18.06" cy="6.87" r="11.83"/><circle cx="-17.63" cy="-5.22" r="11.09"/><circle cx="-9.69" cy="-16.07" r="11.65"/><circle cx="2.06" cy="-19.07" r="11.64"/><circle cx="14.87" cy="-12.85" r="12.06"/><circle class="nos" r="19.5"/></g><g class="p2"><circle cx="9.92" cy="5.4" r="8.16"/><circle cx="2.91" cy="10.6" r="8.31"/><circle cx="-7.76" cy="8.16" r="7.55"/><circle cx="-11.31" cy="-0.51" r="8.07"/><circle cx="-7.28" cy="-9.41" r="7.54"/><circle cx="3.38" cy="-11.38" r="7.85"/><circle cx="9.49" cy="-5.6" r="8.44"/><circle class="nos" r="12"/></g><g class="p3"><circle cx="2.55" cy="5" r="4.82"/><circle cx="-4.06" cy="4.05" r="4.67"/><circle cx="-4.7" cy="-2.55" r="4.96"/><circle cx="1.06" cy="-5.77" r="4.94"/><circle cx="5.44" cy="-0.89" r="4.64"/><circle class="nos" r="6.2"/></g><circle class="p4" r="2.3"/></g>
+<g id="rose"><g class="p1"><circle cx="14" cy="0" r="10.5"/><circle cx="8.73" cy="10.95" r="10.5"/><circle cx="-3.12" cy="13.65" r="10.5"/><circle cx="-12.61" cy="6.07" r="10.5"/><circle cx="-12.61" cy="-6.07" r="10.5"/><circle cx="-3.12" cy="-13.65" r="10.5"/><circle cx="8.73" cy="-10.95" r="10.5"/><circle class="nos" r="15"/></g><circle class="p2 nos" r="13.5"/><path class="r2" d="M0 0a2.5 2.5 0 0 1 5 0a5 5 0 0 1 -10 0a7.5 7.5 0 0 1 15 0a10 10 0 0 1 -20 0M16.63 3.53A17 17 0 0 1 3.53 16.63M-11.38 12.63A17 17 0 0 1 -15.97 -5.81M-5.25 -16.17A17 17 0 0 1 12.63 -11.38"/></g>
+<g id="blossom"><g class="b1"><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(0)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(72)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(144)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(216)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(288)"/></g><g class="b4" transform="scale(.42)"><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(0)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(72)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(144)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(216)"/><path d="M0 0C-7 -4 -11 -14 -6.5 -21C-3.6 -25 -1.2 -24 0 -21.4C1.2 -24 3.6 -25 6.5 -21C11 -14 7 -4 0 0Z" transform="rotate(288)"/></g><circle class="b2" r="3.6"/><g class="b3"><circle cx="6.4" cy="0" r="1.2"/><circle cx="3.99" cy="5" r="1.2"/><circle cx="-1.42" cy="6.24" r="1.2"/><circle cx="-5.77" cy="2.78" r="1.2"/><circle cx="-5.77" cy="-2.78" r="1.2"/><circle cx="-1.42" cy="-6.24" r="1.2"/><circle cx="3.99" cy="-5" r="1.2"/></g></g>
+<g id="leaf"><path class="lf" d="M0 0C8 -9 9.5 -24 0 -38C-9.5 -24 -8 -9 0 0Z"/><path class="lv" d="M0 -3C.8 -14 .8 -24 0 -32"/></g>
+<ellipse id="eu" class="eu" rx="6.6" ry="9.2"/>
+<g id="bud"><path class="st" d="M0 0V12"/><path class="bd" d="M0 -3C-6.5 -9 -7 -18 0 -26C7 -18 6.5 -9 0 -3Z"/><path class="bs" d="M0 1C-5.5 -1.5 -7.5 -7 -6.5 -12C-3.6 -8.6 -1.6 -7.6 0 -5.4C1.6 -7.6 3.6 -8.6 6.5 -12C7.5 -7 5.5 -1.5 0 1Z"/></g>
+<path id="spark" d="M0 -10C.9 -2.9 2.9 -.9 10 0C2.9 .9 .9 2.9 0 10C-.9 2.9 -2.9 .9 -10 0C-2.9 -.9 -.9 -2.9 0 -10Z"/>
+
+</defs>
+
+<g><path class="st" d="M30 40C110 22 190 14 300 30"/><use href="#eu" transform="translate(56.78 26.39) rotate(-162.12) scale(1.04)"/><use href="#eu" transform="translate(77.83 38.29) rotate(-36.79) scale(0.99)"/><use href="#eu" transform="translate(94.83 20.14) rotate(-158.66) scale(1.04)"/><use href="#eu" transform="translate(115.97 31.74) rotate(-41.91) scale(0.91)"/><use href="#eu" transform="translate(133.54 16.54) rotate(-155.82) scale(0.94)"/><use href="#eu" transform="translate(153.66 28.75) rotate(-28.9) scale(0.84)"/><use href="#eu" transform="translate(174.1 15.65) rotate(-149.87) scale(0.8)"/><use href="#eu" transform="translate(194.64 27.96) rotate(-24) scale(0.83)"/><use href="#eu" transform="translate(216.51 16.18) rotate(-151.96) scale(0.75)"/><use href="#eu" transform="translate(238.88 27.93) rotate(-30.62) scale(0.66)"/><use href="#eu" transform="translate(262.59 20.55) rotate(-144.54) scale(0.64)"/><use href="#eu" transform="translate(285.86 32.72) rotate(-23.44) scale(0.63)"/><use href="#eu" transform="translate(303.98 30.58) rotate(-81.72) scale(0.57)"/></g>
+<g><path class="st" d="M40 30C22 110 14 190 30 300"/><use href="#eu" transform="translate(41.26 59.92) rotate(-47.12) scale(1.01)"/><use href="#eu" transform="translate(23.49 75.04) rotate(-286.33) scale(0.96)"/><use href="#eu" transform="translate(35.6 96.88) rotate(-53.56) scale(1.04)"/><use href="#eu" transform="translate(18.26 113.9) rotate(-292.51) scale(0.96)"/><use href="#eu" transform="translate(29.47 134.66) rotate(-51.55) scale(0.83)"/><use href="#eu" transform="translate(15.96 152.7) rotate(-291.24) scale(0.81)"/><use href="#eu" transform="translate(27.89 173.85) rotate(-62.98) scale(0.82)"/><use href="#eu" transform="translate(15.27 194.64) rotate(64.49) scale(0.79)"/><use href="#eu" transform="translate(27.79 216.11) rotate(-66.01) scale(0.75)"/><use href="#eu" transform="translate(18.15 239.83) rotate(52.15) scale(0.72)"/><use href="#eu" transform="translate(29.77 261.94) rotate(-61.78) scale(0.63)"/><use href="#eu" transform="translate(23.65 287.13) rotate(50.45) scale(0.62)"/><use href="#eu" transform="translate(30.58 303.98) rotate(-8.28) scale(0.57)"/></g>
+<g><path class="st" d="M60 60C124 86 150 150 204 178"/><use href="#leaf" transform="translate(78.13 68.87) rotate(54.24) scale(0.84)"/><use href="#leaf" transform="translate(104.83 87.91) rotate(188.57) scale(0.81)"/><use href="#leaf" transform="translate(128.03 110.09) rotate(73.69) scale(0.73)"/><use href="#leaf" transform="translate(149.68 133.2) rotate(196.56) scale(0.74)"/><use href="#leaf" transform="translate(171.72 155.08) rotate(76.46) scale(0.57)"/><use href="#leaf" transform="translate(196.1 173.54) rotate(178.53) scale(0.52)"/><use href="#leaf" transform="translate(204 178) rotate(117.41) scale(0.5)"/></g>
+<use href="#leaf" transform="translate(150 34) rotate(78)"/>
+<use href="#leaf" transform="translate(34 150) rotate(172)"/>
+<use href="#bud" transform="translate(204 50) rotate(78)" style="--c1:#FCE5EB;--c2:#F7CCD7;--c3:#EEABBE;--c4:#CF7C95"/>
+<use href="#bud" transform="translate(50 204) rotate(168)" style="--c1:#E6F0F9;--c2:#CCE0F1;--c3:#A9C8E5;--c4:#6E97BF"/>
+<use href="#blossom" transform="translate(166 66) rotate(10) scale(0.8)" style="--c1:#E6F0F9;--c2:#CCE0F1;--c3:#A9C8E5;--c4:#6E97BF"/>
+<use href="#blossom" transform="translate(66 166) rotate(-20) scale(0.8)" style="--c1:#FCE5EB;--c2:#F7CCD7;--c3:#EEABBE;--c4:#CF7C95"/>
+<use href="#rose" transform="translate(122 46) rotate(20) scale(1.05)" style="--c1:#FFFAF2;--c2:#F8ECDB;--c3:#EFD6B8;--c4:#D4AE76"/>
+<use href="#peony" transform="translate(46 122) rotate(10) scale(1.15)" style="--c1:#E6F0F9;--c2:#CCE0F1;--c3:#A9C8E5;--c4:#6E97BF"/>
+<use href="#peony" transform="translate(100 100) rotate(30) scale(0.9)" style="--c1:#FEEFE6;--c2:#FADBC9;--c3:#F3C0A3;--c4:#D9967A"/>
+<use href="#peony" transform="translate(44 44) scale(1.7)" style="--c1:#FCE5EB;--c2:#F7CCD7;--c3:#EEABBE;--c4:#CF7C95"/>
+<path class="bb2" d="M146 102L161.02 97.31M146 102L158.58 101.83M146 102L157.24 106.49M146 102L154.82 112.13M146 102L152.11 112.28M146 102L147.89 117.44M146 102L143.1 112.72"/><g class="bb1"><circle cx="161.02" cy="97.31" r="2.02"/><circle cx="158.58" cy="101.83" r="1.83"/><circle cx="157.24" cy="106.49" r="2.67"/><circle cx="154.82" cy="112.13" r="2.06"/><circle cx="152.11" cy="112.28" r="2.44"/><circle cx="147.89" cy="117.44" r="2.71"/><circle cx="143.1" cy="112.72" r="2.56"/></g>
+<path class="bb2" d="M102 146L116.35 142.52M102 146L112.65 147.58M102 146L113.01 150.9M102 146L109.93 153.02M102 146L106.19 155.13M102 146L103.47 156.42M102 146L98.17 160.93"/><g class="bb1"><circle cx="116.35" cy="142.52" r="2.33"/><circle cx="112.65" cy="147.58" r="1.82"/><circle cx="113.01" cy="150.9" r="2.07"/><circle cx="109.93" cy="153.02" r="1.75"/><circle cx="106.19" cy="155.13" r="2.52"/><circle cx="103.47" cy="156.42" r="2.14"/><circle cx="98.17" cy="160.93" r="2.67"/></g>
+<g transform="translate(182 122) scale(0.7)"><use href="#spark" class="sp tw" style="animation-delay:0s"/></g>
+<g transform="translate(120 184) scale(0.55)"><use href="#spark" class="sp tw" style="--s:#A9C8E5;animation-delay:-1.5s"/></g>
+
+</svg>

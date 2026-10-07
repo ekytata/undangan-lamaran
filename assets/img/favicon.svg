@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<style>.p1{fill:var(--c1,#FCE5EB);stroke:#fff;stroke-width:1;stroke-opacity:.9}
+.p2{fill:var(--c2,#F7CCD7);stroke:#fff;stroke-width:.9;stroke-opacity:.75}
+.p3{fill:var(--c3,#EEABBE);stroke:#fff;stroke-width:.7;stroke-opacity:.6}
+.p4{fill:var(--c4,#CF7C95)}
+.nos{stroke:none}
+.r2{fill:none;stroke:var(--c3,#EEABBE);stroke-width:1.9;stroke-linecap:round}
+.b1{fill:var(--c2,#F7CCD7);stroke:#fff;stroke-width:.8;stroke-opacity:.8}
+.b4{fill:var(--c3,#EEABBE)}
+.b2{fill:var(--c4,#CF7C95)}
+.b3{fill:#E9C987}
+.lf{fill:var(--l1,#AFC6AB)}
+.lv{fill:none;stroke:var(--l2,#E4EDDF);stroke-width:1;stroke-linecap:round}
+.eu{fill:var(--e1,#C8D9CD);stroke:var(--e2,#AEC5B7);stroke-width:.7}
+.st{fill:none;stroke:var(--st,#A9BEA6);stroke-width:1.6;stroke-linecap:round}
+.bd{fill:var(--c3,#EEABBE)}
+.bs{fill:#A9C2A6}
+.bb1{fill:#fff;stroke:#EBCFD7;stroke-width:.8}
+.bb2{fill:none;stroke:#C5D4C1;stroke-width:.8;stroke-linecap:round}
+.sp{fill:var(--s,#E2C38C)}
+.bdy{fill:#C6DCEF}.bwg{fill:#A7C6E4}.bly{fill:#FFF9F2}.bbk{fill:#F2C29E}.bey{fill:#3F3540}.bck{fill:#F3B5C5}
+.bfl{fill:none;stroke:#8DB2D7;stroke-width:1.3;stroke-linecap:round}
+.bft{fill:none;stroke:#C7AD9C;stroke-width:2.2;stroke-linecap:round}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 3.6s ease-in-out infinite}
+.fl{animation:fl 6s ease-in-out infinite}
+.hb{animation:hb 3.2s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.3;transform:scale(.55)}50%{opacity:1;transform:scale(1)}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes hb{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.tw,.fl,.hb{animation:none}}</style>
+<defs>
+
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAEED4"/><stop offset=".35" stop-color="#E4C68F"/><stop offset=".68" stop-color="#C79D5A"/><stop offset="1" stop-color="#EFD8A8"/></linearGradient>
+<linearGradient id="gemTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D6E7F5"/></linearGradient><linearGradient id="gemBottom" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D4E5F4"/><stop offset="1" stop-color="#9DBFE0"/></linearGradient>
+</defs>
+
+<rect width="64" height="64" rx="16" fill="#FCE5EB"/>
+<circle cx="32" cy="39" r="15" fill="none" stroke="url(#gold)" stroke-width="5"/>
+<g><path d="M25 21L28 32.8M39 21L36 32.8" fill="none" stroke="url(#gold)" stroke-width="3.2" stroke-linecap="round"/><path d="M22 20L26.8 13.2H37.2L42 20Z" fill="url(#gemTop)" stroke="#8DB3D8" stroke-width="1" stroke-linejoin="round"/><path d="M22 20H42L32 30.8Z" fill="url(#gemBottom)" stroke="#8DB3D8" stroke-width="1" stroke-linejoin="round"/><path d="M26.8 13.2L27 20L32 13.2L37 20L37.2 13.2M27 20L32 30.8L37 20" fill="none" stroke="#fff" stroke-opacity=".95" stroke-width=".9" stroke-linejoin="round"/><path d="M28.3 15.7L25.5 18.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><circle cx="23" cy="20" r="1.9" fill="url(#gold)"/><circle cx="41" cy="20" r="1.9" fill="url(#gold)"/></g>
+
+</svg>
