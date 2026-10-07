@@ -8,7 +8,7 @@
 
   // Kode akses di URL (contoh: index.html?code=ulan) → nama sapaan tamu.
   const GUESTS = {
-    ulan: 'Mba Ulan',
+    ulan: 'Mba Ulan & Mas Armin',
     fajar: 'Mas Fajar',
   };
 
@@ -99,12 +99,16 @@
     };
   }
 
+  // Nama tidak terpotong di tengah ("Mas Armin"), tapi boleh pindah baris di sekitar "&".
+  const keepNames = (text) => text.split(' & ').map((name) => name.replace(/ /g, '\u00A0')).join(' & ');
+
   function bindFields(root, fields) {
     $$('[data-requires]', root).forEach((el) => {
       if (!fields[el.dataset.requires]) el.remove();
     });
     $$('[data-field]', root).forEach((el) => {
-      el.textContent = fields[el.dataset.field] || '';
+      const value = fields[el.dataset.field] || '';
+      el.textContent = el.dataset.field === 'guest' ? keepNames(value) : value;
     });
   }
 

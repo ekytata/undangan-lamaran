@@ -67,7 +67,6 @@ h1, h2, h3, p, figure, ul { margin: 0; }
 ul { padding: 0; list-style: none; }
 button { font: inherit; }
 [hidden] { display: none !important; }
-[data-field="guest"] { white-space: nowrap; }
 ::selection { background: var(--pink-200); color: var(--ink); }
 
 /* Ikon garis (gaya stroke) */
