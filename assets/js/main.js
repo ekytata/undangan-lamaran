@@ -6,10 +6,10 @@
 
   /* ===================== PENGATURAN ===================== */
 
-  // Kode akses di URL (contoh: index.html?code=fajar) → nama sapaan tamu.
+  // Kode akses di URL (contoh: index.html?code=12345678) → nama sapaan tamu.
   const GUESTS = {
-    'ulan-dan-armin': 'Mba Ulan & Mas Armin',
-    fajar: 'Mas Fajar',
+    '93058071': 'Mba Ulan & Mas Armin',
+    '21130556': 'Mas Fajar',
   };
 
   // Detail acara. Kolom yang dibiarkan kosong ('') tidak ditampilkan.
