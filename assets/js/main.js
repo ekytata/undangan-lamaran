@@ -16,7 +16,7 @@
   const EVENT = {
     title: 'Lamaran Eky & Tata',
     date: '2026-10-10', // format TTTT-BB-HH
-    startTime: '20:00', // contoh: '10:00'
+    startTime: '19:00', // contoh: '10:00'
     endTime: '',        // contoh: '13:00'
     timeZone: 'WITA',   // WIB, WITA, atau WIT — kosongkan untuk memakai jam perangkat tamu
     place: 'Rumah Tata',
